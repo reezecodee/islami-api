@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { asmaulHusna } from "../utils/data/asmaul-husna";
 
 const AsmaulHusnaController = {
-  all: (res: Response) => {
+  all: (req: Request, res: Response) => {
     res.status(200).json({
       statusCode: 200,
       message: "success",

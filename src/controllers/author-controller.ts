@@ -1,7 +1,7 @@
-import { Response } from "express";
+import { Request, Response } from "express";
 import { author } from "../utils/data/info-author";
 
-const AuthorController = (res: Response) => {
+const AuthorController = (req: Request, res: Response) => {
     res.status(200).json({
         statusCode: 200,
         message: 'success',
