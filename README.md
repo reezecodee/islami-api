@@ -26,7 +26,7 @@ Islami-api adalah API yang menyediakan berbagai macam daftar data seputar islami
     <tr>
         <td>GET</td>
         <td>/api/niat-sholat-wajib/all</td>
-        <td>Mendapatkan daftar doa harian.</td>
+        <td>Mendapatkan semua niat sholat wajib.</td>
     </tr>
 </table>
 
