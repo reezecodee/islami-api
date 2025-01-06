@@ -10,7 +10,7 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 app.use(validateMethodType);
-app.use("/api", router);
+app.use('/', router);
 
 const PORT: number | string = process.env.PORT || 8000;
 

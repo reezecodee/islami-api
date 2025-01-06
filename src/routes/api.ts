@@ -8,9 +8,9 @@ import NiatSholatWajibController from "../controllers/niat-sholat-wajib-controll
 let router = Router();
 
 router.get('/', AuthorController);
-router.get('/asmaul-husna/all', AsmaulHusnaController.all)
-router.get('/asmaul-husna/:urutan', AsmaulHusnaController.urutan)
-router.get('/doa-harian', DoaHarianController)
-router.get('/niat-sholat-wajib/all', NiatSholatWajibController)
+router.get('/api/asmaul-husna/all', AsmaulHusnaController.all)
+router.get('/api/asmaul-husna/:urutan', AsmaulHusnaController.urutan)
+router.get('/api/doa-harian', DoaHarianController)
+router.get('/api/niat-sholat-wajib/all', NiatSholatWajibController)
 
 export default router;
