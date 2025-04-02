@@ -32,7 +32,7 @@ export const niatSholatSunnah: Array<{
     teksArab: "اُصَلِّى سُنَّةَ الْحَاجَةِ رَكْعَتَيْنِ لِلهِ تَعَالَى",
     teksLatin: "Ushollii sunnatal haajati rok’aataini lillahi ta’ala.",
     artinya:
-      "“Aku berniat sholat hajat sunnah hajat dua raka’at karena Allah Ta’ala.”",
+      "Aku berniat sholat hajat sunnah hajat dua raka’at karena Allah Ta’ala.",
   },
   {
     namaSholat: "Tarawih",
